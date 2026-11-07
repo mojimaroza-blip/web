@@ -1,7 +1,7 @@
 /* GENERAL WEBSITE */
-body { 
-  backround: red;
-  font-family: Arial;
+body {
+  background: linear-gradient(to right, red, blue);
+  font-family: Arial, sans-serif;
   margin: 0;
 }
 /* NAVIGATION BAR */
