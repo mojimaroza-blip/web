@@ -1,1 +1,41 @@
+/* GENERAL WEBSITE */
+body { 
+  backround: linear-gradient(to right, blue, yellowa);
+  font-family: Arial;
+  margin: 0;
+}
+/* NAVIGATION BAR */
+nav { 
+  background-color: darkblue;
+  padding: 20px;
+  text-align: center;
+}
+/* NAVIGATION LINKS */
+nav a {
+  color: red;
+  text-decoration: none;
+  padding: 20px;
+  text-align: center;
 
+  /* NAVIGATION HOVER */
+  nav a=hover { 
+    color: yelow;
+  }
+  /* SECTIONS */
+  section {
+    padding: 50px 20px;
+    min-height: 300px;
+  }
+  /* HEADING */
+  h1{ 
+    color: red;
+    text-align: center;
+  }
+  /* PARAGRAPH */
+  p {
+    color: blue;
+    text-align: center;
+    line-height: 1.6;
+  } 
+  
+  
