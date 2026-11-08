@@ -2,7 +2,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: linear-gradient(to right, red, blue);
+    background: linear-gradient(to right, yellow, blue);
     color: white;
 }
 
@@ -37,8 +37,8 @@ nav a:hover {
 
 /* CONTENT BOX */
 .content-box {
-    background-color: white;
-    color: black;
+    background-color: red;
+    color: white;
     padding: 30px;
     margin: 20px;
     border-radius: 10px;
@@ -59,7 +59,7 @@ nav a:hover {
 }
 
 .card {
-    background-color: white;
+    background-color: green;
     color: black;
     padding: 25px;
     border: 2px solid black;
