@@ -1,41 +1,81 @@
-/* GENERAL WEBSITE */
-body {
-  background: linear-gradient(to right, red, blue);
-  font-family: Arial, sans-serif;
-  margin: 0;
-}
-/* NAVIGATION BAR */
-nav { 
-  background-color: darkblue;
-  padding: 20px;
-  text-align: center;
-}
-/* NAVIGATION LINKS */
-nav a {
-  color: red;
-  text-decoration: none;
-  padding: 20px;
-  text-align: center;
 
-  /* NAVIGATION HOVER */
-  nav a=hover { 
-    color: yelow;
-  }
-  /* SECTIONS */
-  section {
-    padding: 50px 20px;
-    min-height: 300px;
-  }
-  /* HEADING */
-  h1{ 
-    color: red;
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, red, blue);
+    color: white;
+}
+
+/* NAVIGATION */
+nav {
+    background-color: black;
+    padding: 20px;
     text-align: center;
-  }
-  /* PARAGRAPH */
-  p {
-    color: blue;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+/* HERO */
+.hero {
+    background-color: lightblue;
+    color: black;
+    padding: 60px 20px;
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
     text-align: center;
-    line-height: 1.6;
-  } 
-  
-  
+}
+
+/* CONTENT BOX */
+.content-box {
+    background-color: white;
+    color: black;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+/* SERVICES */
+.page-title {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.card {
+    background-color: white;
+    color: black;
+    padding: 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 220px;
+    box-sizing: border-box;
+}
+
+.card h2 {
+    color: darkblue;
+}
+
+/* FOOTER */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
